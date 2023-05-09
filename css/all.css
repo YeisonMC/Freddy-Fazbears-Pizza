@@ -3,14 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
 
 :root{
-    --color-primario:rgb(245, 31, 2);
-    --color-secundario:rgb(36, 26, 173);
-    --coolor-title: rgb(0, 0, 0);
-    --color-subtitle: rgb(255, 255, 255);
+    --color-red:rgb(245, 31, 2);
+    --color-blue:rgb(36, 26, 173);
+    --color-black: rgb(0, 0, 0);
+    --color-withe: rgb(255, 255, 255);
 }
 
 * {
-
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -20,18 +19,24 @@ a{
     text-decoration: none;
     color: white;
 }
+/* .menu-navbar{
+ margin-right: 50px;
+} */
+
 body{
-    background-color: black;
+    background-color: rgb(70, 64, 64);
+
 }
+
 
 /*HEADER*/
 header{
-
-  idth: 95%;
-  margin: auto;
-  padding-top: 10px;
+    width: 90%;
+    margin: auto;
 
 }
+
+
 /*NAV*/
 #hola{
     color: white;        
@@ -41,17 +46,54 @@ header{
 
 .aqui{
     background-color: blueviolet;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
+    padding: 5px;
     width:50% ;
-    
-    
+    margin-bottom: 1rem;
 }
-.xd{
-    margin: 10px;
-}
+
 
 
 footer{
     background-color: #1D1D1D;
+}
+
+
+/*----------- CUERPO -----------*/
+.container-article{
+width: 80%;
+margin: auto;
+background-color: aqua;
+} 
+
+.image-section{
+background-image: url(/image/inicio/Frame\ 5.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 20px; 
+border-radius: 10px;
+}
+
+.contacto{
+    margin-top: 60px;
+    width: 80%;
+    border: 1px solid var(--color-secundario);
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1em;
+
+}
+
+.title-h1-white{
+    color: var(--color-withe);     
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.title-h2-{
+    color: #F08C16;
+    font-weight: 600;
+    font-size: 35px;
 }
