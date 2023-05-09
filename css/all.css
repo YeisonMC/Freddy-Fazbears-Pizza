@@ -10,22 +10,48 @@
 }
 
 * {
+
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: black;
+}
 
 /*HEADER*/
-.header{
-    margin-left: 50px;
-}
+header{
 
+  idth: 95%;
+  margin: auto;
+  padding-top: 10px;
+
+}
 /*NAV*/
 #hola{
-    color: var(--coolor-title);
-    
+    color: white;        
     font-weight: 700;
+
 }
 
+.aqui{
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    width:50% ;
+    
+    
+}
+.xd{
+    margin: 10px;
+}
+
+
+footer{
+    background-color: #1D1D1D;
+}
