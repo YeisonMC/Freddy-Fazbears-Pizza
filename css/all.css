@@ -25,6 +25,7 @@ a{
 
 body{
     background-color: rgb(70, 64, 64);
+    
 
 }
 
@@ -62,7 +63,7 @@ footer{
 
 /*----------- CUERPO -----------*/
 .container-article{
-width: 80%;
+width: 90%;
 margin: auto;
 background-color: aqua;
 } 
@@ -97,3 +98,6 @@ border-radius: 10px;
     font-weight: 600;
     font-size: 35px;
 }
+
+
+
