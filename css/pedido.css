@@ -1,135 +1,146 @@
-:root{
-    --color-primario: #EC111A;
-    --color-secundario: blue;
-    --sombras: #282d31;
-    --titulos: #282828;
-    --textos: #53575A;
-    --fondo: #FCFCFC;
-
+:root {
+  --color-primario: #ec111a;
+  --color-secundario: blue;
+  --sombras: #282d31;
+  --titulos: #282828;
+  --textos: #53575a;
+  --fondo: #fcfcfc;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: var(--fondo);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-form{
-    max-width: 1000px;
-    background-color: #ffffff;
-    box-shadow: 2px 2px 4px 0px #424242;
-    margin: auto;
-    border-radius: 0px 0px 10px 10px;
-    padding: 1.2em;
+body {
+  background-color: rgb(70, 64, 64);
 }
 
-input{
-    width: 100%;
-    border: 1px solid var(--color-primario);
-    padding: .5em;
-    border-radius: 3px;
-    margin-bottom: 1em;
+/*HEADER*/
+header {
+  width: 90%;
+  margin: auto;
 }
 
-
-h2{
-    font-size: 1px;
-    line-height: 40px;
-    color: white;
+/*NAV*/
+#hola {
+  color: white;
+  font-weight: 700;
 }
 
-.form1{
-    max-width: 1000px;
-    background-color: #3d3c3c;
-    box-shadow: 2px 2px 4px 0px #424242;
-    margin: auto;
-    border-radius: 10px 10px 0px 0px;
-    padding: 1em;
+.aqui {
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  width: 50%;
+  margin-bottom: 1rem;
 }
 
-.form2{
-    max-width: 1000px;
-    background-color: #3d3c3c;
-    box-shadow: 2px 2px 6px 0px #424242;
-    margin: auto;
-    border-radius: 0px 0px 10px 10px;
-    padding: 0em 3em 2em 3em;
+form {
+  max-width: 1000px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px 0px #424242;
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+  padding: 1.2em;
 }
 
-.container1{
-    display: flex;
+input {
+  width: 100%;
+  border: 1px solid var(--color-primario);
+  padding: 0.5em;
+  border-radius: 3px;
+  margin-bottom: 1em;
 }
 
-.boton1{
-
-    background-color: darkred;
-    color: white;
-    padding: 17px;
-    width: 450px;
-    margin: 12px 15px;
-    border: 2px solid rgb(0, 0, 0);
-
+h2 {
+  font-size: 1px;
+  line-height: 40px;
+  color: white;
 }
 
-.boton2{
-    display: inline-block;
-    background-color: darkred;
-    color: white;
-    padding: 17px;
-    width: 450px;
-    margin: 12px 20px;
-    border-color: black;
-    border-radius: 40;
-    border: 2px solid rgb(0, 0, 0); 
-}   
-
-.boton3{
-
-    background-color: darkred;
-    color: white;
-    padding: 8px;
-    margin: 10px 1px ;
-    border: 2px solid rgb(0, 0, 0);
-
-}
-.boton4{
-
-    background-color: rgb(61, 4, 99);
-    color: white;
-    padding: 8px;
-    margin: 10px 1px ;
-    border: 2px solid rgb(61, 4, 99);
-    
-    
-}
-.icon{
-    position:absolute;
-    width: 35px;
-    top: 130px;
-    margin-left: 120px;
-    
+.form1 {
+  max-width: 1000px;
+  background-color: #3d3c3c;
+  box-shadow: 2px 2px 4px 0px #424242;
+  margin: auto;
+  border-radius: 10px 10px 0px 0px;
+  padding: 1em;
 }
 
-.icon1{
-    position:absolute;
-    width: 35px;
-    top: 130px;
-    margin-left: 630px;
-    
+.form2 {
+  max-width: 1000px;
+  background-color: #3d3c3c;
+  box-shadow: 2px 2px 6px 0px #424242;
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+  padding: 0em 3em 2em 3em;
 }
 
-.icon2{
-    position:absolute;
-    width: 30px;
-    top: 218px;
-    margin-left: 380px;
+.container1 {
+  display: flex;
 }
-.email{
-    padding: 5px;
+
+.boton1 {
+  background-color: darkred;
+  color: white;
+  padding: 17px;
+  width: 450px;
+  margin: 12px 15px;
+  border: 2px solid rgb(0, 0, 0);
 }
-.text{
-    padding: 5px;
+
+.boton2 {
+  display: inline-block;
+  background-color: darkred;
+  color: white;
+  padding: 17px;
+  width: 450px;
+  margin: 12px 20px;
+  border-color: black;
+  border-radius: 40;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.boton3 {
+  background-color: darkred;
+  color: white;
+  padding: 8px;
+  margin: 10px 1px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.boton4 {
+  background-color: rgb(61, 4, 99);
+  color: white;
+  padding: 8px;
+  margin: 10px 1px;
+  border: 2px solid rgb(61, 4, 99);
+}
+.icon {
+  position: absolute;
+  width: 35px;
+  top: 238px;
+  margin-left: 120px;
+}
+
+.icon1 {
+  position: absolute;
+  width: 35px;
+  top: 238px;
+  margin-left: 630px;
+}
+
+.icon2 {
+  position: absolute;
+  width: 30px;
+  top: 332px;
+  margin-left: 380px;
+}
+.email {
+  padding: 5px;
+}
+.text {
+  padding: 5px;
 }
