@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freddy Fazbear's - Menú</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="/css/menu.css" />
+    <link rel="icon" href="/image/icon-pagina.ico" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!---navbar inicio-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark xd">
+        <div class="d-flex justify-content-start">
+          <a href="#" class="navbar-brand">
+            <img src="/image/Logo1.png" />
+          </a>
+        </div>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ml-auto">
+            <!-- poner a derecha ml-auto-->
+            <a href="/index.html" class="navbar-brand menu-navbar">Inicio</a>
+            <a href="/pages/menu.html" class="navbar-brand menu-navbar"
+              ><u>Menu</u>
+            </a>
+            <a href="#" class="navbar-brand menu-navbar">Sobre Nosotros</a>
+            <button class="aqui">
+              <a href="/pages/pedido.html">Ordene aqui</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!---navbar final-->
+
+    <!---imagen inicio-->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-ride="carousel"
+      class="carrusel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="../image/menu/carrucel.png"
+            alt="First slide"
+            style="border-radius: 20px; opacity: 0.4"
+          />
+
+          <div
+            class="caption"
+            style="
+              position: absolute;
+              color: #f08c16;
+              top: 52%;
+              left: 85%;
+              transform: translate(-70%, -54%);
+            "
+          >
+            <h1 style="font-size: 6vw">Nuestro</h1>
+            <h1 style="font-size: 6vw; float: right">Menu</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---imagen final-->
+
+    <center>
+      <h1 style="margin: 2% 0 2% 0; color: #f08c16">
+        🍕 Las favoritas de miles 🔥
+      </h1>
+    </center>
+
+    <!---Cartas inicio-->
+    <div
+      class="row gx-2 gx-lg-2 row-cols-2 row-cols-md-2 row-cols-xl-4 justify-content-center"
+      style="margin-left: 5%; margin-right: 5%"
+    >
+      <div class="col mb-2">
+        <div class="card1">
+          <img
+            src="../image/menu/vegetariana.png"
+            class="card-img-top"
+            alt="..."
+            style="border-radius: 10px"
+          />
+          <div class="card-body">
+            <h3 class="letrared">FAMILIAR VERDURAS</h3>
+            <p style="color: white">
+              CEBOLLA, CHAMPIÑONES, ACEITUNAS Y PIMENTÓN VERDE....
+            </p>
+            <p class="container-min-precio padding-space">S/ 31.90</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-2">
+        <div class="card1">
+          <img
+            src="../image/menu/4en1.jpg"
+            class="card-img-top"
+            alt="..."
+            style="border-radius: 10px"
+          />
+          <div class="card-body">
+            <h3 class="letrared">FAMILIAR 4 en 1</h3>
+            <p style="color: white">
+              4 COMBINACIONES: QUESO, PEPPERONI, SALCHICHA....
+            </p>
+            <p class="container-min-precio padding-space">S/ 50.90</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-2">
+        <div class="card1">
+          <img
+            src="../image/menu/jamon.jpg"
+            class="card-img-top"
+            alt="..."
+            style="border-radius: 10px"
+          />
+          <div class="card-body">
+            <h3 class="letrared">FAMILIAR JAMON</h3>
+            <p style="color: white">8 Porciones: Queso, extra jamon......</p>
+            <p class="container-min-precio padding-space">S/ 34.90</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-2">
+        <div class="card1">
+          <img
+            src="../image/menu//queso.jpg"
+            class="card-img-top"
+            alt="..."
+            style="border-radius: 10px"
+          />
+          <div class="card-body">
+            <h3 class="letrared">FAMILIAR SUPER QUESO</h3>
+            <p style="color: white">Cortesa gruesa con Queso y m...</p>
+            <p class="container-min-precio padding-space">S/ 35.90</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---Cartas final-->
+
+    <center>
+      <h1 style="margin: 2% 0 2% 0; color: #f08c16">Combos 🍕🍕</h1>
+    </center>
+
+    <!---combos inicio-->
+    <div
+      class="row row-cols-1 row-cols-md-4 g-2"
+      style="margin-left: 1%; margin-right: 1%"
+    >
+      <div class="col">
+        <div class="card2">
+          <img
+            src="../image/menu/COMBOS1.png"
+            class="card-img-top"
+            alt="..."
+            style="border-radius: 15px 15px 0 0"
+          />
+          <div class="card-body">
+            <center>
+              <h5 class="letrared">Combo Pizza Grande</h5>
+              <h5 class="letrared">⭐⭐⭐⭐⭐</h5>
+            </center>
+
+            <button type="button" class="bot1">Pedir Ya</button>
+            <span class="card-text" style="font-size: 20px"> S/39.90</span>
+            <p style="text-decoration: line-through" class="card-text">
+              S/59.90
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card2">
+          <img
+            src="../image/menu/COMBOS2.png"
+            class="card-img-top"
+            alt="..."
+            style="border-radius: 15px 15px 0 0"
+          />
+          <div class="card-body">
+            <center>
+              <h5 class="letrared">Combo 2 Pizzas Familiares</h5>
+              <h5 class="letrared">⭐⭐⭐⭐⭐</h5>
+            </center>
+
+            <button type="button" class="bot1">Pedir Ya</button>
+            <span class="card-text" style="font-size: 20px"> S/39.90</span>
+            <p style="text-decoration: line-through" class="card-text">
+              S/59.90
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card2">
+          <img
+            src="../image/menu/COMBOS3.png"
+            class="card-img-top"
+            alt="..."
+            style="border-radius: 15px 15px 0 0"
+          />
+          <div class="card-body">
+            <center>
+              <h5 class="letrared">Combo Pizza Queso</h5>
+              <h5 class="letrared">⭐⭐⭐⭐⭐</h5>
+            </center>
+
+            <button type="button" class="bot1">Pedir Ya</button>
+            <span class="card-text" style="font-size: 20px"> S/39.90</span>
+            <p style="text-decoration: line-through" class="card-text">
+              S/59.90
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card2">
+          <img
+            src="../image/menu/COMBOS4.png"
+            class="card-img-top"
+            alt="..."
+            style="border-radius: 15px 15px 0 0"
+          />
+          <div class="card-body">
+            <center>
+              <h5 class="letrared">Combo Pizza Grande</h5>
+              <h5 class="letrared">⭐⭐⭐⭐⭐</h5>
+            </center>
+
+            <button type="button" class="bot1">Pedir Ya</button>
+            <span class="card-text" style="font-size: 20px"> S/39.90</span>
+            <p style="text-decoration: line-through" class="card-text">
+              S/59.90
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---combos final-->
+
+    <center>
+      <h1 style="margin: 2% 0 2% 0; color: #f08c16">
+        Nuestras Pizzas Clásicas
+      </h1>
+    </center>
+
+    <!---clasicas inicio-->
+    <div
+      class="row gx-2 gx-lg-2 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+      style="margin-left: 1%; margin-right: 1%"
+    >
+      <div class="col mb-2">
+        <div class="card2">
+          <img
+            src="../image/menu//clasica1.png"
+            class="card-img-top"
+            alt="..."
+            style="padding: 3%; border-radius: 20px"
+          />
+          <div class="card-body">
+            <h3 class="letrared">Pizza Mozzarella</h3>
+            <p style="color: white">Doble Queso Mozzarella</p>
+            <p class="container-min-precio padding-space">S/ 26.90</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-2">
+        <div class="card2">
+          <img
+            src="../image/menu/clasica2.png"
+            class="card-img-top"
+            alt="..."
+            style="padding: 3%; border-radius: 20px"
+          />
+          <div class="card-body">
+            <h3 class="letrared">Pizza Americana</h3>
+            <p style="color: white">Queso mozzarella, Jamón</p>
+            <p class="container-min-precio padding-space">S/ 26.90</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-2">
+        <div class="card2">
+          <img
+            src="../image/menu//clasica3.png"
+            class="card-img-top"
+            alt="..."
+            style="padding: 3%; border-radius: 20px"
+          />
+          <div class="card-body">
+            <h3 class="letrared">Pizza Peperoni</h3>
+            <p style="color: white">Queso mozzarella, Pepperoni</p>
+            <p class="container-min-precio padding-space">S/ 26.90</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-2">
+        <div class="card2">
+          <img
+            src="../image/menu/clasica4.png"
+            class="card-img-top"
+            alt="..."
+            style="padding: 3%; border-radius: 20px"
+          />
+          <div class="card-body">
+            <h3 class="letrared">Pizza Chicken Bbq</h3>
+            <p style="color: white">Queso mozzarella, Salsa barbacoa...</p>
+            <p class="container-min-precio padding-space">S/ 35.90</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---clasicas final-->
+
+    <br />
+
+    <!-- footer inicio-->
+    <footer
+      class="text-center text-lg text-white"
+      style="background-color: rgba(23, 23, 23)"
+      s
+    >
+      <div class="text-center text-md-start" style="padding: 0 2% 0 2%">
+        <div class="row text-center text-md-start">
+          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-3 font-weight-bold text-secondary">
+              TERMINOS Y CONDICIONES
+            </h5>
+            <p style="line-height: 5px">
+              <a href="">Politica de privacidad</a>
+            </p>
+            <p style="line-height: 5px"><a href="">Politica de delivery</a></p>
+            <p style="line-height: 5px"><a href="">Politica de delivery</a></p>
+
+            <h5 class="mb-3 font-weight-bold text-secondary">DELIVERY</h5>
+            <p style="line-height: 5px">(000-000-000)</p>
+            <p style="line-height: 5px">lUNES A VIERNES</p>
+            <p style="line-height: 5px">11:00am A 10:00pm</p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-3 font-weight-bold text-secondary">
+              AYUDA Y SERVICIO
+            </h5>
+            <p style="line-height: 5px"><a href="">Contactanos</a></p>
+            <p style="line-height: 5px"><a href="">Trabaja con nosotros</a></p>
+            <p style="line-height: 5px"><a href="">Preguntas frecuentes</a></p>
+            <p style="line-height: 5px"><a href="">Zonas de reparto</a></p>
+
+            <h5 class="mb-3 font-weight-bold text-secondary">SOBRE NOSOTROS</h5>
+            <p style="line-height: 5px"><a href="">Locales</a></p>
+            <p style="line-height: 5px"><a href="">Nosotros</a></p>
+            <p style="line-height: 5px"><a href="">Vision y vision</a></p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-3 font-weight-bold text-secondary">
+              ¿Quieres ser el primero en enterarte de nuestras promos?¡Claro que
+              las quieres!
+            </h5>
+            <img src="../image/footer-logo.png" alt="" style="width: 70%" />
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-3 font-weight-bold text-secondary">
+              NUESTRAS REDES SOCIALES
+            </h5>
+            <p><a href="">Facebook</a></p>
+            <p><a href="">Instagram</a></p>
+            <p><a href="">Twitter</a></p>
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div class="text-center mb2">
+          <p>
+            2023 Proyecto pizzeria FNAF
+            <a href=""></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer final-->
+  </body>
+</html>
