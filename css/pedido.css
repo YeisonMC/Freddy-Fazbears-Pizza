@@ -1,4 +1,4 @@
-:root {
+  :root {
   --color-primario: #ec111a;
   --color-secundario: blue;
   --sombras: #282d31;
@@ -52,7 +52,7 @@ input {
   border: 1px solid var(--color-primario);
   padding: 0.5em;
   border-radius: 3px;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 h2 {
@@ -66,49 +66,66 @@ h2 {
   box-shadow: 2px 2px 4px 0px #424242;
   margin: auto;
   border-radius: 10px 10px 0px 0px;
-  padding: 1em;
+  padding: 0.5em 2em;
 }
 
 .form2 {
   max-width: 1000px;
   background-color: #3d3c3c;
-  box-shadow: 2px 2px 6px 0px #424242;
+  box-shadow: 2px 2px 4px 0px #424242;
   margin: auto;
-  border-radius: 0px 0px 10px 10px;
-  padding: 0em 3em 2em 3em;
+  border-radius: 10px 10px 0px 0px;
+  padding: 0.5em 4em;
 }
 
 .container1 {
   display: flex;
+  
 }
-
-.boton1 {
-  background-color: darkred;
-  color: white;
-  padding: 17px;
-  width: 450px;
-  margin: 12px 15px;
-  border: 2px solid rgb(0, 0, 0);
+.btn{
+  display: flex;
+  justify-content: center;
+  background-color: #3d3c3c;
+  padding: 0px ;
+  flex-direction:row;
 }
-
-.boton2 {
+.btn1{
+  display: flex;
+  justify-content: center;
+  background-color: #3d3c3c;
+  padding: 01.5px ;
+  flex-direction:row;
+}
+.button{  
+background-color: #a50303;
+display: inline-block;
+border: 2px solid rgb(0, 0, 0);
+padding: 15px 150px;
+text-align: center;
+color: #fcfcfc;
+font-size: 16px;
+margin: 4px 2px; 
+display: grid;
+}
+.button1{  
+  background-color: #a50303;
   display: inline-block;
-  background-color: darkred;
-  color: white;
-  padding: 17px;
-  width: 450px;
-  margin: 12px 20px;
-  border-color: black;
-  border-radius: 40;
   border: 2px solid rgb(0, 0, 0);
+  padding: 15px 150px;
+  text-align: center;
+  color: #fcfcfc;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: grid;
 }
-
-.boton3 {
-  background-color: darkred;
+.button3 {
+  background-color: rgb(59, 4, 110);
   color: white;
   padding: 8px;
+  width: 13;
   margin: 10px 1px;
-  border: 2px solid rgb(0, 0, 0);
+  border: 0px; 
+  margin-bottom: 2em;
 }
 .boton4 {
   background-color: rgb(61, 4, 99);
@@ -117,29 +134,20 @@ h2 {
   margin: 10px 1px;
   border: 2px solid rgb(61, 4, 99);
 }
-.icon {
-  position: absolute;
-  width: 35px;
-  top: 238px;
-  margin-left: 120px;
-}
-
-.icon1 {
-  position: absolute;
-  width: 35px;
-  top: 238px;
-  margin-left: 630px;
-}
-
-.icon2 {
-  position: absolute;
-  width: 30px;
-  top: 332px;
-  margin-left: 380px;
-}
 .email {
   padding: 5px;
 }
 .text {
   padding: 5px;
+}
+
+@media screem and (min-width: 1024px) {
+  .button{
+    font-size: 1.5rem;
+    background-color: aqua;
+  }
+  .button1{
+    font-size: 1.5rem;
+  }
+  
 }
