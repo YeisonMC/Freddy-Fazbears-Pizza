@@ -15,22 +15,23 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
-    <link rel="stylesheet" href="/css/all.css" />
-    <link rel="icon" href="/image/icon-pagina.ico" />
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="icon" href="/image/icon-pagina.ico" />
   </head>
 
   <body>
+    <!-----------HEADER----------------->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark xd">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="d-flex justify-content-start">
           <a href="#" class="navbar-brand">
-            <img src="/image/Logo1.png" />
+            <img src="/image/Logo1.png" class="header-image" />
           </a>
         </div>
         <button
@@ -42,29 +43,29 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ml-auto">
+          <div class="navbar-nav ml-auto header-link-a">
             <!-- poner a derecha ml-austo-->
-            <a href="/index.html" class="navbar-brand menu-navbar">Inicio</a>
-            <a href="/pages/menu.html" class="navbar-brand menu-navbar">Menu</a>
-            <a
-              href="/pages/sobre_nosotros.html"
-              class="navbar-brand menu-navbar"
+            <a href="/index.html" class="navbar-brand li-a-nav">Inicio</a>
+            <a href="/pages/menu.html" class="navbar-brand li-a-nav">Menu</a>
+            <a href="/pages/sobre_nosotros.html" class="navbar-brand li-a-nav"
               >Sobre Nosotros</a
             >
-            <button class="aqui">
-              <a href="/pages/pedido.html">Ordene aqui</a>
+            <button class="header-aqui">
+              <a href="/pages/pedido.html" class="li-a-nav">Ordene aqui</a>
             </button>
           </div>
         </div>
       </nav>
     </header>
 
-    <article class="container-article">
+    <!-----------Article 1----------------->
+
+    <article class="ontainer-article">
       <section class="img-fluid image-section">
         <div class="col-xs-12 col-sm-12 col-md-4">
           <h1 class="title-h1-white">Oferta especial</h1>
           <h2 class="title-h2-">Una sorpresa para ti</h2>
-          <p class="parrafo">
+          <p class="container-min-p">
             Nuevas sopresas cada mes, no te las pierdas, nos preocupamos por
             nuestro clientes.
           </p>
@@ -77,109 +78,74 @@
         </div>
       </section>
     </article>
-    <br />
+    <br /><br /><br />
+    <!-----------ARTICLE 2----------------->
     <article>
-      <div class="container-article">
-        <div class="column-vertical-horizontal">
-          <div class="column-vertical">
-            <div class="column-vertical-center">
-              <h1 class="container-subtitle-h1">Las mejores Promos Jacks!</h1>
-              <p class="container-subtitle-p">
-                Con Freddy Fazbear’s reviviras tus miedos mas profundos
-              </p>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="container-nav">
+              <div class="container">
+                <h1 class="container-subtitle-h1">Las mejores Promos Jacks!</h1>
+                <p class="container-min-p">
+                  Con Freddy Fazbear’s reviviras tus miedos mas profundos.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="contenedor-card-padding">
-            <div class="contenedor-card">
-              <div class="container-card-image">
-                <img src="/image/inicio/Frame 7.png" />
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="/image/inicio/Frame 7.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title container-min-h3">Pizza americana</h3>
+                <p class="card-text container-min-p">
+                  Pizza de 8 porciones con salsa de tomate, queso mozzarella,
+                  jamón.
+                </p>
+                <p class="container-min-precio">S/ 34.8</p>
               </div>
-              <h3 class="container-min-h3 padding-space">Pizza americana</h3>
-              <p class="container-min-p padding-space">
-                Pizza de 8 porciones con salsa de tomate, queso mozzarella,
-                jamón. Pidelo ya....
-              </p>
-              <p class="container-min-precio padding-space">S/ 31.90</p>
             </div>
           </div>
-
-          <div class="contenedor-card-padding">
-            <div class="contenedor-card">
-              <div class="container-card-image">
-                <img src="/image/inicio/Frame 7.png" />
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="/image/inicio/Frame 7.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title container-min-h3">Pizza americana</h3>
+                <p class="card-text container-min-p">
+                  Pizza de 8 porciones con salsa de tomate, queso mozzarella,
+                  jamón.
+                </p>
+                <p class="container-min-precio">S/ 34.8</p>
               </div>
-              <h3 class="container-min-h3 padding-space">Pizza americana</h3>
-              <p class="container-min-p padding-space">
-                Pizza de 8 porciones con salsa de tomate, queso mozzarella,
-                jamón. Pidelo ya....
-              </p>
-              <p class="container-min-precio padding-space">S/ 31.90</p>
             </div>
           </div>
-          <div class="contenedor-card-padding">
-            <div class="contenedor-card">
-              <div class="container-card-image">
-                <img src="/image/inicio/Frame 7.png" />
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="/image/inicio/Frame 7.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title container-min-h3">Pizza americana</h3>
+                <p class="card-text container-min-p">
+                  Pizza de 8 porciones con salsa de tomate, queso mozzarella,
+                  jamón.
+                </p>
+                <p class="container-min-precio">S/ 34.8</p>
               </div>
-              <h3 class="container-min-h3 padding-space">Pizza americana</h3>
-              <p class="container-min-p padding-space">
-                Pizza de 8 porciones con salsa de tomate, queso mozzarella,
-                jamón. Pidelo ya....
-              </p>
-              <p class="container-min-precio padding-space">S/ 31.90</p>
             </div>
           </div>
         </div>
       </div>
-      <br />
     </article>
-
-    <foote class="bg-light pt-5 pb-4">
-      <div class="container text-center text-md-start">
-        <div class="row text-center text-md-start">
-          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
-            <h5 class="mb-3 font-weight-bold text-secondary">
-              TERMINOS Y CONDICIONES
-            </h5>
-            <p><a href="">Politica de privacidad</a></p>
-            <p><a href="">Politica de delivery</a></p>
-            <p><a href="">Politica de delivery</a></p>
-          </div>
-
-          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
-            <h5 class="mb-3 font-weight-bold text-secondary">
-              AYUDA Y SERVICIO
-            </h5>
-            <p><a href="">Contactanos</a></p>
-            <p><a href="">Trabaja con nosotros</a></p>
-            <p><a href="">Preguntas frecuentes</a></p>
-            <p><a href="">Zonas de reparto</a></p>
-          </div>
-
-          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
-            <h5 class="mb-3 font-weight-bold text-secondary">
-              ¿Quieres ser el primero en enterarte de nuestras promos?¡Claro que
-              las quieres!
-            </h5>
-          </div>
-
-          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
-            <h5 class="mb-3 font-weight-bold text-secondary">
-              NUESTRAS REDES SOCIALES
-            </h5>
-            <p><a href="">Facebook</a></p>
-            <p><a href="">Instagram</a></p>
-            <p><a href="">Twitter</a></p>
-          </div>
-        </div>
-        <hr class="mb-4" />
-        <div class="text-center mb2">
-          <p>
-            2023 Proyecto pizzeria FNAFs
-            <a href=""></a>
-          </p>
-        </div>
-      </div>
-    </foote>
   </body>
 </html>
