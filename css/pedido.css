@@ -1,41 +1,10 @@
-  :root {
+:root {
   --color-primario: #ec111a;
   --color-secundario: blue;
   --sombras: #282d31;
   --titulos: #282828;
   --textos: #53575a;
   --fondo: #fcfcfc;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: rgb(70, 64, 64);
-}
-
-/*HEADER*/
-header {
-  width: 90%;
-  margin: auto;
-}
-
-/*NAV*/
-#hola {
-  color: white;
-  font-weight: 700;
-}
-
-.aqui {
-  background-color: blueviolet;
-  border-radius: 10px;
-  color: white;
-  padding: 5px;
-  width: 50%;
-  margin-bottom: 1rem;
 }
 
 form {
@@ -80,34 +49,33 @@ h2 {
 
 .container1 {
   display: flex;
-  
 }
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   background-color: #3d3c3c;
-  padding: 0px ;
-  flex-direction:row;
+  padding: 0px;
+  flex-direction: row;
 }
-.btn1{
+.btn1 {
   display: flex;
   justify-content: center;
   background-color: #3d3c3c;
-  padding: 01.5px ;
-  flex-direction:row;
+  padding: 01.5px;
+  flex-direction: row;
 }
-.button{  
-background-color: #a50303;
-display: inline-block;
-border: 2px solid rgb(0, 0, 0);
-padding: 15px 150px;
-text-align: center;
-color: #fcfcfc;
-font-size: 16px;
-margin: 4px 2px; 
-display: grid;
+.button {
+  background-color: #a50303;
+  display: inline-block;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 15px 150px;
+  text-align: center;
+  color: #fcfcfc;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: grid;
 }
-.button1{  
+.button1 {
   background-color: #a50303;
   display: inline-block;
   border: 2px solid rgb(0, 0, 0);
@@ -124,7 +92,7 @@ display: grid;
   padding: 8px;
   width: 13;
   margin: 10px 1px;
-  border: 0px; 
+  border: 0px;
   margin-bottom: 2em;
 }
 .boton4 {
@@ -142,12 +110,11 @@ display: grid;
 }
 
 @media screem and (min-width: 1024px) {
-  .button{
+  .button {
     font-size: 1.5rem;
     background-color: aqua;
   }
-  .button1{
+  .button1 {
     font-size: 1.5rem;
   }
-  
 }

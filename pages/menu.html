@@ -15,24 +15,22 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
-    <link rel="stylesheet" href="/css/all.css" />
-    <link rel="stylesheet" href="/css/menu.css" />
     <link rel="icon" href="/image/icon-pagina.ico" />
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="/css/menu.css" />
   </head>
-
   <body>
-    <!---navbar inicio-->
+    <!-----------HEADER----------------->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark xd">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="d-flex justify-content-start">
           <a href="#" class="navbar-brand">
-            <img src="/image/Logo1.png" />
+            <img src="/image/Logo1.png" class="header-image" />
           </a>
         </div>
         <button
@@ -44,25 +42,20 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ml-auto">
-            <!-- poner a derecha ml-auto-->
-            <a href="/index.html" class="navbar-brand menu-navbar">Inicio</a>
-            <a href="/pages/menu.html" class="navbar-brand menu-navbar"
-              ><u>Menu</u>
-            </a>
-            <a
-              href="/pages/sobre_nosotros.html"
-              class="navbar-brand menu-navbar"
+          <div class="navbar-nav ml-auto header-link-a">
+            <!-- poner a derecha ml-austo-->
+            <a href="/index.html" class="navbar-brand li-a-nav">Inicio</a>
+            <a href="/pages/menu.html" class="navbar-brand li-a-nav">Menu</a>
+            <a href="/pages/sobre_nosotros.html" class="navbar-brand li-a-nav"
               >Sobre Nosotros</a
             >
-            <button class="aqui">
-              <a href="/pages/pedido.html">Ordene aqui</a>
+            <button class="header-aqui">
+              <a href="/pages/pedido.html" class="li-a-nav">Ordene aqui</a>
             </button>
           </div>
         </div>
       </nav>
     </header>
-    <!---navbar final-->
 
     <!---imagen inicio-->
     <div
@@ -358,7 +351,7 @@
 
     <br />
 
-    <!-- footer inicio-->
+    <br /><br />
     <footer
       class="text-center text-lg text-white"
       style="background-color: rgba(23, 23, 23)"
@@ -370,10 +363,9 @@
             <h5 class="mb-3 font-weight-bold text-secondary">
               TERMINOS Y CONDICIONES
             </h5>
-            <p style="line-height: 5px">
+            <p style="line-height: 14px">
               <a href="">Politica de privacidad</a>
             </p>
-            <p style="line-height: 5px"><a href="">Politica de delivery</a></p>
             <p style="line-height: 5px"><a href="">Politica de delivery</a></p>
 
             <h5 class="mb-3 font-weight-bold text-secondary">DELIVERY</h5>
@@ -387,8 +379,8 @@
               AYUDA Y SERVICIO
             </h5>
             <p style="line-height: 5px"><a href="">Contactanos</a></p>
-            <p style="line-height: 5px"><a href="">Trabaja con nosotros</a></p>
-            <p style="line-height: 5px"><a href="">Preguntas frecuentes</a></p>
+            <p style="line-height: 15px"><a href="">Trabaja con nosotros</a></p>
+            <p style="line-height: 15px"><a href="">Preguntas frecuentes</a></p>
             <p style="line-height: 5px"><a href="">Zonas de reparto</a></p>
 
             <h5 class="mb-3 font-weight-bold text-secondary">SOBRE NOSOTROS</h5>
@@ -413,16 +405,12 @@
             <p><a href="">Instagram</a></p>
             <p><a href="">Twitter</a></p>
           </div>
-        </div>
-        <hr class="mb-4" />
-        <div class="text-center mb2">
-          <p>
-            2023 Proyecto pizzeria FNAF
-            <a href=""></a>
-          </p>
+          <hr />
+          <div class="text-center">
+            <p>2023 Proyecto pizzeria FNAF</p>
+          </div>
         </div>
       </div>
     </footer>
-    <!-- footer final-->
   </body>
 </html>

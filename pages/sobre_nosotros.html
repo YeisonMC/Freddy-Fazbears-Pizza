@@ -15,26 +15,47 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
     <link rel="icon" href="/image/icon-pagina.ico" />
+    <link rel="stylesheet" href="/css/all.css" />
     <link rel="stylesheet" href="/css/sobre_nosotros.css" />
   </head>
-  <body style="background-color: black">
+  <body>
+    <!-----------HEADER----------------->
     <header>
-      <div class="header-contenedor">
-        <a href="#"><img src="/image/logos.png" alt="" /></a>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="d-flex justify-content-start">
+          <a href="#" class="navbar-brand">
+            <img src="/image/Logo1.png" class="header-image" />
+          </a>
+        </div>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ml-auto header-link-a">
+            <!-- poner a derecha ml-austo-->
+            <a href="/index.html" class="navbar-brand li-a-nav">Inicio</a>
+            <a href="/pages/menu.html" class="navbar-brand li-a-nav">Menu</a>
+            <a href="/pages/sobre_nosotros.html" class="navbar-brand li-a-nav"
+              >Sobre Nosotros</a
+            >
+            <button class="header-aqui">
+              <a href="/pages/pedido.html" class="li-a-nav">Ordene aqui</a>
+            </button>
+          </div>
+        </div>
+      </nav>
     </header>
-
-    <aside>
-      <div class="aside-contenedor">
-        <ul class="nav-contenedor-columnas">
-          <li><a href="/index.html">INICIO</a></li>
-          <li><a href="/pages/menu.html">Menu</a></li>
-          <li><a href="/pages/sobre_nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="/pages/pedido.html">Ordena Aqui</a></li>
-        </ul>
-      </div>
-    </aside>
     <nav class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6">
@@ -95,54 +116,65 @@
       </div>
     </nav>
     <br /><br />
-    <nav class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-3">
-          <img
-            src="/image/sobre_nosotros/preparation.jpg"
-            alt="clas1"
-            class="img-fluid"
-          />
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3">
-          <img
-            src="/image/sobre_nosotros/preparation.jpg"
-            alt="clas1"
-            class="img-fluid"
-          />
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3">
-          <img
-            src="/image/sobre_nosotros/preparation.jpg"
-            alt="clas1"
-            class="img-fluid"
-          />
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3">
-          <img
-            src="/image/sobre_nosotros/preparation.jpg"
-            alt="clas1"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </nav>
-    <footer>
-      <div class="footer-contenedor-column">
-        <div class="footer-div" id="footer-div-1">
-          <p class="footer-title-social" style="color: white">Contacto</p>
-          <p class="footer-quienes"><a href="">+51 939 123 987</a></p>
-          <p class="footer-quienes">
-            <a href="">+51 939 123 987 (Whatsapp)</a>
-          </p>
-        </div>
-        <div class="footer-div" id="footer-div-1">
-          <p class="footer-title-social" style="color: white">E-mail</p>
-          <p class="footer-quienes"><a href="">devlab.pe@gmail.com</a></p>
-        </div>
-        <div class="footer-div" id="footer-div-1">
-          <p class="footer-title-social" style="color: white">Dirección</p>
-          <p class="footer-quienes"><a href="">Lima - Perú</a></p>
+
+    <br /><br />
+    <footer
+      class="text-center text-lg text-white"
+      style="background-color: rgba(23, 23, 23)"
+      s
+    >
+      <div class="text-center text-md-start" style="padding: 0 2% 0 2%">
+        <div class="row text-center text-md-start">
+          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-3 font-weight-bold text-secondary">
+              TERMINOS Y CONDICIONES
+            </h5>
+            <p style="line-height: 14px">
+              <a href="">Politica de privacidad</a>
+            </p>
+            <p style="line-height: 5px"><a href="">Politica de delivery</a></p>
+
+            <h5 class="mb-3 font-weight-bold text-secondary">DELIVERY</h5>
+            <p style="line-height: 5px">(000-000-000)</p>
+            <p style="line-height: 5px">lUNES A VIERNES</p>
+            <p style="line-height: 5px">11:00am A 10:00pm</p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-3 font-weight-bold text-secondary">
+              AYUDA Y SERVICIO
+            </h5>
+            <p style="line-height: 5px"><a href="">Contactanos</a></p>
+            <p style="line-height: 15px"><a href="">Trabaja con nosotros</a></p>
+            <p style="line-height: 15px"><a href="">Preguntas frecuentes</a></p>
+            <p style="line-height: 5px"><a href="">Zonas de reparto</a></p>
+
+            <h5 class="mb-3 font-weight-bold text-secondary">SOBRE NOSOTROS</h5>
+            <p style="line-height: 5px"><a href="">Locales</a></p>
+            <p style="line-height: 5px"><a href="">Nosotros</a></p>
+            <p style="line-height: 5px"><a href="">Vision y vision</a></p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-3 font-weight-bold text-secondary">
+              ¿Quieres ser el primero en enterarte de nuestras promos?¡Claro que
+              las quieres!
+            </h5>
+            <img src="../image/footer-logo.png" alt="" style="width: 70%" />
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-3 font-weight-bold text-secondary">
+              NUESTRAS REDES SOCIALES
+            </h5>
+            <p><a href="">Facebook</a></p>
+            <p><a href="">Instagram</a></p>
+            <p><a href="">Twitter</a></p>
+          </div>
+          <hr />
+          <div class="text-center">
+            <p>2023 Proyecto pizzeria FNAF</p>
+          </div>
         </div>
       </div>
     </footer>
